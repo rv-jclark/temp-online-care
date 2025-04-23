@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -17,6 +18,15 @@ export default function Home() {
             className="object-cover rounded-lg"
             priority
           />
+        </div>
+
+        <div className="mt-12 text-center">
+          <Link
+            href="/questionnaire"
+            className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors"
+          >
+            Start Health Questionnaire
+          </Link>
         </div>
       </div>
     </main>
