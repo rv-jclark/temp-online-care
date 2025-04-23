@@ -11,7 +11,7 @@ export default function Home() {
 
         <div className="mt-8 relative w-full h-96">
           <Image
-            src="/online-care/images/hero-image.svg"
+            src={`${process.env.NEXT_PUBLIC_PROJECT_ROOT}/images/hero-image.svg`}
             alt="Healthcare professionals providing care"
             fill
             className="object-cover rounded-lg"

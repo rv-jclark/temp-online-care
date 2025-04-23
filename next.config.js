@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/online-care",
+  basePath: process.env.NEXT_PUBLIC_PROJECT_ROOT,
   reactStrictMode: true,
 };
 
