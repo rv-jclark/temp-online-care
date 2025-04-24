@@ -14,7 +14,7 @@ A modern web application built with Next.js, React, and TypeScript.
 ### Prerequisites
 
 - Node.js (latest LTS version recommended)
-- npm or yarn package manager
+- Yarn package manager
 
 ### Installation
 
@@ -26,15 +26,11 @@ cd temp-online-care
 
 2. Install dependencies:
 ```bash
-npm install
-# or
 yarn install
 ```
 
 3. Run the development server:
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
@@ -61,10 +57,10 @@ NEXT_PUBLIC_PROJECT_ROOT=/online-care
 
 ## 🛠️ Available Scripts
 
-- `npm run dev` - Starts the development server
-- `npm run build` - Builds the application for production
-- `npm run start` - Runs the built application
-- `npm run lint` - Runs ESLint to check for code issues
+- `yarn dev` - Starts the development server
+- `yarn build` - Builds the application for production
+- `yarn start` - Runs the built application
+- `yarn lint` - Runs ESLint to check for code issues
 
 ## 📁 Project Structure
 
