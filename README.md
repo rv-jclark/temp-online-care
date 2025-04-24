@@ -51,9 +51,8 @@ touch .env.local
 
 2. Add the required environment variables to `.env.local`:
 ```env
-# Example environment variables
-NEXT_PUBLIC_API_URL=http://localhost:3000/api
-# Add other environment variables as needed
+# Base path for the project (used for asset paths)
+NEXT_PUBLIC_PROJECT_ROOT=/online-care
 ```
 
 3. For production deployment, make sure to set these environment variables in your hosting platform.
